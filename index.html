@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hostel Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hostel Management System</h1>
+
+    <div class="container">
+
+        <h2>Allocate Bed</h2>
+        <input type="text" id="studentName" placeholder="Enter Student Name">
+        <select id="roomNumber">
+            <option value="">Select Room</option>
+        </select>
+        <button onclick="allocateBed()">Allocate</button>
+
+        <h2>Vacate Bed</h2>
+        <input type="text" id="vacateName" placeholder="Enter Student Name">
+        <button onclick="vacateBed()">Vacate</button>
+
+        <h2>Room Status</h2>
+        <div id="roomStatus"></div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
